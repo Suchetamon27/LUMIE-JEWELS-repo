@@ -9,7 +9,7 @@ Catering to fine jewelry buyers, it displays pricing in Indian Rupees (INR, ₹)
 
 ## 🔗 Live Project Link:
 
-[ ]
+[https://lumie-jewels-repo.vercel.app/]
 
 ## ✨ Features
 - Branding: Elegant deep wine burgundy themes combined with warm champagne surfaces and thin antique gold accents.
