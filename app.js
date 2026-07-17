@@ -1,6 +1,6 @@
 // LUMIE JEWELS - SPA Core Logic and Product Catalog
 
-// 1. Product Catalog Database with Tanishq sub-brands and specifications
+// 1. Product Catalog Database with sub-brands and specifications
 const jewelryCatalog = [
   {
     id: "lj-001",
@@ -11,7 +11,7 @@ const jewelryCatalog = [
     material: "22KT Gold",
     collection: "Traditional",
     subBrand: "Rivaah",
-    image: "images/gold_category.jpg",
+    image: "assets/images/gold_category.jpg",
     description: "An antique-finish majestic 22KT yellow gold Rani Haar adorned with exquisite Kundan stones, delicate pearls, and ruby drops. Crafted for royal bridal elegance.",
     specs: {
       "Metal Purity": "22KT Yellow Gold",
@@ -31,7 +31,7 @@ const jewelryCatalog = [
     material: "22KT Gold",
     collection: "Traditional",
     subBrand: "Rivaah",
-    image: "images/gold_category.jpg",
+    image: "assets/images/gold_category.jpg",
     description: "Ornate traditional Chandbalis combining uncut Polki diamonds and fresh-water pearls on a detailed yellow gold floral base. Perfect for wedding celebrations.",
     specs: {
       "Metal Purity": "22KT Yellow Gold",
@@ -50,7 +50,7 @@ const jewelryCatalog = [
     material: "Diamond",
     collection: "Contemporary",
     subBrand: "Astra",
-    image: "images/diamond_category.jpg",
+    image: "assets/images/diamond_category.jpg",
     description: "A striking 18KT white gold engagement ring featuring a high-brilliance certified 0.75-carat round solitaire diamond in an elegant four-prong setting.",
     specs: {
       "Metal Purity": "18KT White Gold",
@@ -69,7 +69,7 @@ const jewelryCatalog = [
     material: "Gemstone/Navratna",
     collection: "Traditional",
     subBrand: "Virasat",
-    image: "images/gemstone_category.jpg",
+    image: "assets/images/gemstone_category.jpg",
     description: "A traditional protective Navratna necklace featuring the nine astrological gemstones (Ruby, Pearl, Coral, Emerald, Yellow Sapphire, Diamond, Blue Sapphire, Hessonite, Cat's Eye) set in 18KT yellow gold.",
     specs: {
       "Metal Purity": "18KT Yellow Gold",
@@ -88,7 +88,7 @@ const jewelryCatalog = [
     material: "22KT Gold",
     collection: "Traditional",
     subBrand: "Virasat",
-    image: "images/gold_category.jpg",
+    image: "assets/images/gold_category.jpg",
     description: "A beautifully detailed, handcrafted 22KT yellow gold Kada bangle. Features traditional Indian wire-mesh filigree work with a secure screw closure.",
     specs: {
       "Metal Purity": "22KT Yellow Gold",
@@ -107,7 +107,7 @@ const jewelryCatalog = [
     material: "18KT Gold",
     collection: "Everyday",
     subBrand: "Mia",
-    image: "images/gold_category.jpg",
+    image: "assets/images/gold_category.jpg",
     description: "A contemporary lightweight 18KT yellow gold Mangalsutra featuring a minimal diamond-encrusted floral pendant strung with traditional black beads.",
     specs: {
       "Metal Purity": "18KT Yellow Gold",
@@ -126,7 +126,7 @@ const jewelryCatalog = [
     material: "Diamond",
     collection: "Everyday",
     subBrand: "Mia",
-    image: "images/diamond_category.jpg",
+    image: "assets/images/diamond_category.jpg",
     description: "Graceful, everyday-wear 18KT rose gold huggie Bali earrings encrusted with round brilliant-cut micro-diamonds. Timeless and versatile.",
     specs: {
       "Metal Purity": "18KT Rose Gold",
@@ -145,7 +145,7 @@ const jewelryCatalog = [
     material: "22KT Gold",
     collection: "Festive",
     subBrand: "Virasat",
-    image: "images/gold_category.jpg",
+    image: "assets/images/gold_category.jpg",
     description: "An auspicious 10-gram 24KT pure gold coin embossed with Goddess Lakshmi sitting on a lotus, representing wealth and prosperity. Perfect for gifting and investment.",
     specs: {
       "Metal Purity": "24KT Pure Gold (999 Fineness)",
@@ -164,7 +164,7 @@ const jewelryCatalog = [
     material: "Diamond",
     collection: "Contemporary",
     subBrand: "Astra",
-    image: "images/diamond_category.jpg",
+    image: "assets/images/diamond_category.jpg",
     description: "A luxurious 18KT white gold line bracelet beautifully set with a continuous row of uniform brilliant-cut diamonds totaling 4.0 carats.",
     specs: {
       "Metal Purity": "18KT White Gold",
@@ -183,7 +183,7 @@ const jewelryCatalog = [
     material: "Gemstone/Navratna",
     collection: "Festive",
     subBrand: "Virasat",
-    image: "images/gemstone_category.jpg",
+    image: "assets/images/gemstone_category.jpg",
     description: "A gorgeous festive Tanmaniya pendant featuring an oval Zambian emerald center drop accented by round-cut diamond wings, crafted in 18KT yellow gold.",
     specs: {
       "Metal Purity": "18KT Yellow Gold",
@@ -202,7 +202,7 @@ const jewelryCatalog = [
     material: "22KT Gold",
     collection: "Wedding",
     subBrand: "Rivaah",
-    image: "images/gold_category.jpg",
+    image: "assets/images/gold_category.jpg",
     description: "An exquisite bridal forehead ornament (Matha Patti) in 22KT gold plating, hand-set with Kundan stones and fringed with natural seed pearls.",
     specs: {
       "Metal Purity": "22KT Gold Overlay",
@@ -221,7 +221,7 @@ const jewelryCatalog = [
     material: "22KT Gold",
     collection: "Everyday",
     subBrand: "Virasat",
-    image: "images/gold_category.jpg",
+    image: "assets/images/gold_category.jpg",
     description: "A refined and solid 22KT yellow gold Kada for men, featuring a polished finish with subtle geometric hand-engravings for an understated statement of luxury.",
     specs: {
       "Metal Purity": "22KT Yellow Gold",
@@ -240,7 +240,7 @@ const jewelryCatalog = [
     material: "18KT Gold",
     collection: "Everyday",
     subBrand: "Mia",
-    image: "images/gold_category.jpg",
+    image: "assets/images/gold_category.jpg",
     description: "Delicate, lightweight, and safety-focused floral-shaped earrings for kids, crafted in 18KT yellow gold with smooth screw-back clasps.",
     specs: {
       "Metal Purity": "18KT Yellow Gold",
@@ -259,7 +259,7 @@ const jewelryCatalog = [
     material: "Diamond",
     collection: "Traditional",
     subBrand: "Mia",
-    image: "images/diamond_category.jpg",
+    image: "assets/images/diamond_category.jpg",
     description: "A beautiful 18KT yellow gold nose pin featuring a cluster of seven brilliant diamonds in a flower design, suitable for piercings and everyday elegance.",
     specs: {
       "Metal Purity": "18KT Yellow Gold",
@@ -278,7 +278,7 @@ const jewelryCatalog = [
     material: "22KT Gold",
     collection: "Traditional",
     subBrand: "Virasat",
-    image: "images/gold_category.jpg",
+    image: "assets/images/gold_category.jpg",
     description: "Timeless dome-shaped Jhumkas in 22KT gold with delicate gold bead clusters hanging from a floral ear stud, featuring exquisite hand-hammered details.",
     specs: {
       "Metal Purity": "22KT Yellow Gold",
@@ -297,7 +297,7 @@ const jewelryCatalog = [
     material: "22KT Gold",
     collection: "Festive",
     subBrand: "Mia",
-    image: "images/gold_category.jpg",
+    image: "assets/images/gold_category.jpg",
     description: "An elegant gifting set featuring a lightweight 22KT gold flower pendant and matching stud earrings, packed in a premium luxury Lumie presentation box.",
     specs: {
       "Metal Purity": "22KT Yellow Gold",
@@ -316,7 +316,7 @@ const jewelryCatalog = [
     material: "Yellow Gold",
     collection: "Traditional",
     subBrand: "Mia",
-    image: "images/gold_category.jpg",
+    image: "assets/images/gold_category.jpg",
     description: "Exquisite adjustable toe rings (Bichhiya) crafted in sterling silver with fine gold-gilded accents, featuring traditional Indian engravings.",
     specs: {
       "Metal Purity": "92.5 Sterling Silver with Gold Gilding",
@@ -335,7 +335,7 @@ const jewelryCatalog = [
     material: "18KT Gold",
     collection: "Contemporary",
     subBrand: "Astra",
-    image: "images/gold_category.jpg",
+    image: "assets/images/gold_category.jpg",
     description: "Ultra-premium, heavy 18KT yellow gold cufflinks with a brushed gold face and polished border. Engraved with understated elegance for formal luxury attire.",
     specs: {
       "Metal Purity": "18KT Yellow Gold",
@@ -371,22 +371,22 @@ function formatCurrency(amount) {
 
 // 3. Dynamic DOM Rendering Functions
 
-// Render Categories List (Horizontal list with images)
+// Render Categories List (Horizontal list with images matching Tanishq style)
 function renderCategories() {
   const container = document.getElementById("categories-container");
   if (!container) return;
 
   const categoriesList = [
-    { name: "All", label: "All Jewellery", image: "images/hero_fallback.jpg" },
-    { name: "Gold Jewelry", label: "Gold Jewellery", image: "images/gold_category.jpg" },
-    { name: "Diamond Jewelry", label: "Diamond Jewellery", image: "images/diamond_category.jpg" },
-    { name: "Gemstones / Navratna", label: "Gemstones & Polki", image: "images/gemstone_category.jpg" },
-    { name: "Coins", label: "Gold & Silver Coins", image: "images/gold_category.jpg" },
-    { name: "Wedding Collection", label: "Wedding Rivaah", image: "images/gold_category.jpg" },
-    { name: "Everyday / Lightweight", label: "Mia Daily Wear", image: "images/diamond_category.jpg" },
-    { name: "Gifts", label: "Gift Hampers", image: "images/gold_category.jpg" },
-    { name: "Men's Jewelry", label: "Men's Accessories", image: "images/gold_category.jpg" },
-    { name: "Kids' Jewelry", label: "Kids & Teens", image: "images/gold_category.jpg" }
+    { name: "All", label: "All Jewellery", image: "assets/images/hero_fallback.jpg" },
+    { name: "Gold Jewelry", label: "Gold Jewellery", image: "assets/images/gold_category.jpg" },
+    { name: "Diamond Jewelry", label: "Diamond Jewellery", image: "assets/images/diamond_category.jpg" },
+    { name: "Gemstones / Navratna", label: "Gemstones & Polki", image: "assets/images/gemstone_category.jpg" },
+    { name: "Coins", label: "Gold & Silver Coins", image: "assets/images/gold_category.jpg" },
+    { name: "Wedding Collection", label: "Wedding Rivaah", image: "assets/images/gold_category.jpg" },
+    { name: "Everyday / Lightweight", label: "Mia Daily Wear", image: "assets/images/diamond_category.jpg" },
+    { name: "Gifts", label: "Gift Hampers", image: "assets/images/gold_category.jpg" },
+    { name: "Men's Jewelry", label: "Men's Accessories", image: "assets/images/gold_category.jpg" },
+    { name: "Kids' Jewelry", label: "Kids & Teens", image: "assets/images/gold_category.jpg" }
   ];
 
   container.innerHTML = categoriesList.map((cat, index) => {
@@ -397,7 +397,7 @@ function renderCategories() {
     return `
       <div class="category-card intersect ${activeClass}" onclick="selectCategory('${cat.name}')" style="--delay: ${index * 30}ms">
         <div class="category-img-wrapper">
-          <img src="${cat.image}" alt="${cat.label}" onerror="this.src='images/hero_fallback.jpg'">
+          <img src="${cat.image}" alt="${cat.label}" onerror="this.src='assets/images/hero_fallback.jpg'">
           <div class="category-overlay"></div>
         </div>
         <h4 class="category-title ${activeTextClass}">${cat.label}</h4>
@@ -421,7 +421,7 @@ function renderFeaturedItems() {
     return `
       <div class="featured-card intersect" onclick="openDetailModal('${item.id}')" style="--delay: ${index * 100}ms">
         <div class="featured-img-wrapper">
-          <img src="${item.image}" alt="${item.name}" onerror="this.src='images/hero_fallback.jpg'">
+          <img src="${item.image}" alt="${item.name}" onerror="this.src='assets/images/hero_fallback.jpg'">
           <span class="featured-badge">${item.subBrand}</span>
         </div>
         <div class="featured-content">
@@ -581,12 +581,12 @@ function renderProductGrid() {
     return;
   }
 
-  // Item card layout
+  // Style item card layout
   gridContainer.innerHTML = filteredItems.map((item, index) => {
     return `
       <div class="product-card intersect" onclick="openDetailModal('${item.id}')" style="--delay: ${(index % 4) * 40}ms">
         <div class="product-card-image">
-          <img src="${item.image}" alt="${item.name}" onerror="this.src='images/hero_fallback.jpg'">
+          <img src="${item.image}" alt="${item.name}" onerror="this.src='assets/images/hero_fallback.jpg'">
           <div class="product-card-tag">${item.subBrand}</div>
         </div>
         <div class="product-card-details">
@@ -631,7 +631,7 @@ function openDetailModal(itemId) {
   modalBody.innerHTML = `
     <div class="modal-layout">
       <div class="modal-gallery">
-        <img src="${item.image}" alt="${item.name}" onerror="this.src='images/hero_fallback.jpg'">
+        <img src="${item.image}" alt="${item.name}" onerror="this.src='assets/images/hero_fallback.jpg'">
         <div class="modal-tag-overlay">${item.subBrand} Collection</div>
       </div>
       <div class="modal-info">
@@ -901,4 +901,3 @@ function initTypewriter() {
   }
   setTimeout(type, 300); // Start delay
 }
-
