@@ -1,4 +1,4 @@
-## 💎LUMIE JEWELS
+## 💎LUMIE JEWELS V.1.0
 Intricate Heritage, Modern Luxury
 An elegant, high-end Single-Page Application (SPA) showcasing exquisite Indian luxury fine jewelry, designed with a custom aesthetic design.
 
